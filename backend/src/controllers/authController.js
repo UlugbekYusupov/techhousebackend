@@ -2,8 +2,7 @@ import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import { v4 as uuidv4 } from "uuid";
 
-import users from "../data/db.js";
-import generateId from "../utils/generateId.js";
+import { users } from "../data/db.js";
 
 const JWT_SECRET_KEY = "techhousebackendsecretkey";
 
